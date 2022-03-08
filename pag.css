@@ -1,0 +1,183 @@
+*{ box-sizing: border-box;}
+
+.body{
+    margin: 0px;
+}
+
+.navegacion {
+    background: rgb(231, 120, 207);
+    display: flex;
+    justify-content: space-between;
+    font-size: 20px;
+    padding: 30px;
+    }
+
+.Logo { 
+    font-family: 'Comforter';
+    font-size: 80px;
+    color: rgb(27, 8, 27);
+    justify-content: center; 
+}
+
+.LP {
+    display: flex;
+    letter-spacing: 7px;
+}
+
+.Menu{
+    letter-spacing: 3px;
+}
+
+.articulos {
+    background: rgba(233, 84, 223, 0.5);
+    display: flex;
+    margin: 1px 0px;
+    padding: 40px;
+    justify-content: space-around;
+    height: 100px;
+    text-transform: uppercase;
+}
+
+.Collares {
+    text-decoration: none;
+}
+
+.Collares:hover {
+    background: rgb(224, 185, 224);  
+}
+
+.Anillos:hover {
+    background: rgb(224, 185, 224);
+}
+
+.Pulseras:hover {
+    background: rgb(224, 185, 224);
+}
+
+.GiftCard:hover {
+    background: rgb(224, 185, 224);
+}
+
+.fotos {
+    background: rgb(248, 212, 236);
+    text-align: center;
+    display: inline-block;
+}
+
+.fotos img {
+
+    
+    display: flex;
+    width: 150px;
+    height: 100px;
+    margin: 50px 40px;  
+}
+    
+.Comprar{
+    background: rgb(250, 114, 189);
+    display: block;
+    padding: 10px;
+    color: seashell;
+    text-decoration: none;
+    border-radius: 3px;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.Comprar:hover {
+    background: rgb(168, 45, 127);
+
+}
+
+.Foto { 
+    background:rgb(255, 255, 255, .7);
+    display: flex;
+    border: 1px solid rgb(95, 92, 92);
+    display: inline-block;
+    margin: 10px;
+    border-radius: 5px;
+    box-shadow: 10px 10px 15px gray;    
+}
+
+.vertodo{
+    background: rgb(235, 90, 179);
+    width: 150px;
+    height: 40px;
+    padding: 10px;
+    margin: 15px 600px;
+    box-shadow: 10px 10px 15px gray;
+    border-radius: 3px;
+    letter-spacing: 1px;
+}
+
+.vertodo:hover {
+    background:  rgb(214, 122, 180);
+    
+}
+
+.Footer{
+    background: rgb(231, 120, 207);
+    columns: 4;
+    padding: 30px;
+    height: 120px;
+    letter-spacing: 1px;  
+}
+
+.facebook{
+    float: right;
+    padding: 5px;
+}
+
+.insta {
+    float: right;
+    padding: 5px;
+    letter-spacing: 7px;
+}
+
+@media all and (max-width: 600px) {
+
+    .navegacion{
+        display: flex;
+        flex-direction: column;
+        height: 100px;
+        font-size: 10px;
+        justify-content: center;
+    }
+
+    .Logo{
+        font-size: 25px;
+    }
+
+    .articulos{
+        display: flex;
+        flex-direction: column;
+        font-size: 10px;
+        height: 25px;    
+    }
+
+    .fotos{
+        display: flex;
+        flex-direction: column;
+        width: 600px;
+        font-size: 10px;
+    }
+    
+    .Footer{
+        display: flex;
+        flex-direction: column;
+        font-size: 10px;
+        height: auto;
+        width: 600px;
+        justify-content: center ;
+    }
+
+    .facebook{
+        display: flex;
+        flex-direction: column;
+    }
+    .insta{
+        display: flex;
+        flex-direction: column;
+    }
+
+}
